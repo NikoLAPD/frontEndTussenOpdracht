@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap');
+
+body {
+    display: flex;
+}
+
+nav {
+    background-color: #480ca8;
+    border: 3px solid black;
+    border-radius: 3px;
+    width: 96%;
+    padding-left: 50px;
+    display: flex;
+    font-family: 'Tourney', cursive;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+.Sec1 {
+    display: flex;
+    gap: 100px;
+    border: 2px solid black;
+    width: 99.2%;
+    padding-bottom: 55px;
+    margin-bottom: 75px;
+}
+.Sec2{
+    border: 2px solid black;
+    padding-top: 75px;
+}
+
+.imgtext {
+    padding-left: 85px;
+    padding-top: 50px;
+    flex-direction: row;
+}
+
+h1 {
+    font-family: 'Tourney', cursive;
+    font-size: 45px;
+
+
+}
+
+h2 {
+    font-family: 'Tourney', cursive;
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Tourney', cursive;
+
+
+}
+
+p {
+    font-family: 'Tourney', cursive;
+    margin: 0px;
+
+
+}
+
+.pricetag1 {
+    font-size: 45px;
+}
+
+.Short-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 250px;
+}
+
+img.imgzyxel {
+    border: 3px black solid;
+}
+
+.KB {
+    display: flex;
+    font-size: 20px;
+    width: 85%;
+}
+
+.Bestellen {
+    flex-direction: row;
+    display: flex;
+    font-size: 20px;
+    align-content: center;
+    padding-top: 65px;
+}
+
+p.Bestellenbutton {
+    border: 1px solid black;
+    width: 85%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #480ca8;
+    color: white;
+    padding: 15px;
+
+}
+
+.imgwww {
+    display: flex;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.prijz {
+
+    color: white;
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+.omsz {
+
+    color: white;
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+.grlz {
+
+    color: white;
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+.pmomschrijving {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 75px;
+
+}
+
+.plumin {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #480ca8;
+    color: white;
+    padding: 35px;
+}
+
+.Omschrijving {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+
+}
+
+.gerprod {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: #f8edeb;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+img.imgmod1 {
+    width: 150px;
+}
+
+img.imgmod2 {
+    width: 150px;
+}
+
+img.imgmod3 {
+    width: 150px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-left: 125px;
+    padding-right: 125px;
+    margin-top: 25px;
+}
+footer{
+
+    background-color: #343a40;
+    border: 5px solid #343a40;
+    border-radius: 2px;
+    padding: 65px;
+    width: 92%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
